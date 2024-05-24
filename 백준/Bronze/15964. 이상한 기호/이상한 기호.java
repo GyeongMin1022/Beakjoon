@@ -5,10 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		int a = scan.nextInt();
-		int b = scan.nextInt();
+		long a = scan.nextLong();
+		long b = scan.nextLong();
 		
-		int result = (a+b) * (a-b);
+		long result = (a+b) * (a-b);
 		System.out.println(result);
 		
 	}
